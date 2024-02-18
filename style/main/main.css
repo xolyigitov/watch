@@ -1,0 +1,272 @@
+@import url(../font.css);
+
+:root {
+    --MB: "MB";
+    --MR: "MR";
+    --white: #ffffff;
+    --grey: #C8C8C8;
+}
+
+.main-title {
+    margin-top: 60px;
+    text-align: center;
+    color: #000;
+    font-family: var(--MR);
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+}
+
+.span {
+    margin-top: 20px;
+    display: block;
+    width: 1140px;
+    height: 2px;
+    border-radius: 0.5px;
+    background: #323232;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(3,  1fr);
+    column-gap: 24px;
+    row-gap: 40;
+}
+
+.main-content__one {
+    margin-top: 40px;
+    width: 346px;
+    height: 445px;
+    border-radius: 10px;
+    background: #E1E1E1;
+    display: flex;
+
+}
+
+.main-content__left {
+    padding: 13px;
+    display: block;
+}
+
+.main-content__btn {
+
+    padding: 13px;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background: #323232;
+    color: #FFF;
+    font-family: var(--MR);
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.main-content__center {
+    margin-top: 82px;
+    margin-right: 30px;
+}
+
+.main-content__watch-one {
+    width: 150px;
+    height: 173px;
+}
+
+
+.main-icon {
+    display: flex;
+    flex-direction: column;
+    color: #323232;
+    padding-top: 30px;
+}
+
+.main-icon:nth-of-type(2) {
+    padding-top: 50px;
+}
+
+.main-content__text {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-text {
+    color: #323232;
+    font-family: var(--MR);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.main-content__title {
+    color: #000;
+    font-family: var(--MB);
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content__price {
+    color: #323232;
+    font-family: var(--MR);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.main-end__text {
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-end__title {
+    color: #323232;
+    font-family: var(--MR);
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+    transition: all 500ms;
+}
+
+.main-end__title:hover {
+    color: orange;
+}
+
+
+
+.main-end__title-two {
+    margin-top: 60px;
+    color: #000;
+    font-family: var(--MR);
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    transition: all 500ms;
+}
+
+.main-end__title-two:hover {
+    color: darkorange;
+}
+
+.span {
+    margin-top: 30px;
+    display: block;
+    width: 1140px;
+    height: 2px;
+    border-radius: 0.5px;
+    background: #323232;
+}
+
+.main-end__left {
+    margin-top: 40px;
+    width: 536px;
+    height: 370px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.70) 0%, rgba(50, 50, 50, 0.70) 100%), url(../main/images-main/mainendbg.png), lightgray 50% / cover no-repeat;
+}
+
+.main-end__btn {
+    color: #323232;
+    font-family: var(--MR);
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.btn {
+    padding:13px;
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.main-end__left-title {
+    margin-top: 80px;
+    margin-left: 60px;
+    color: #FFF;
+    font-family: var(--MB);
+    font-size: 22px;
+    line-height: 27px;
+    font-variant: all-small-caps;
+}
+
+.main-end__left-text {
+    margin-top: 30px;
+    margin-left: 64px;
+    color: #E1E1E1;
+    font-family: var(--MR);
+    font-size: 18px;
+    line-height: 22px;
+    /* 122.222% */
+    font-variant: all-small-caps;
+}
+
+.main-end__left-time {
+    margin-top: 20px;
+    margin-left: 60px;
+    color: #FFF;
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.main-end__right {
+    margin-top: 40px;
+    width: 536px;
+    height: 370px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.70) 0%, rgba(50, 50, 50, 0.70) 100%), url(../main/images-main/mainendbg2.png), lightgray 50% / cover no-repeat;
+}
+
+.main-end__right-title {
+    margin-top: 80px;
+    margin-left: 60px;
+    color: #FFF;
+    font-family: var(--MB);
+    font-size: 22px;
+    line-height: 27px;
+    font-variant: all-small-caps;
+}
+
+.main-end__right-text {
+    margin-top: 30px;
+    margin-left: 64px;
+    color: #E1E1E1;
+    font-family: var(--MR);
+    font-size: 18px;
+    line-height: 22px;
+    /* 122.222% */
+    font-variant: all-small-caps;
+}
+
+.main-end__right-time {
+    margin-top: 20px;
+    margin-left: 60px;
+    color: #FFF;
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.main-end {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main-end */
+
